@@ -7,7 +7,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class FileUploadAndDownloadApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(FileUploadAndDownloadApplication.class, args);
+
+		System.out.println("Hello");
+		System.out.println("Amit");
 	}
 
 }
